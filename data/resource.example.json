@@ -1,0 +1,13 @@
+{
+  "id": "resource-itac",
+  "title": "IT Assistance Center",
+  "category": "Technology support",
+  "description": "Official campus technology support and help with access problems.",
+  "url": "https://itac.txst.edu/",
+  "tags": [
+    "technology",
+    "login",
+    "canvas"
+  ],
+  "verified_on": "2026-10-15"
+}

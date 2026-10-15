@@ -1,0 +1,7 @@
+{
+  "scenario_id": "demo-canvas-access",
+  "fictional": true,
+  "summary": "Example: course not visible in Canvas",
+  "suggested_resource_id": "resource-itac",
+  "message": "Verify enrollment and use the official technology support resource. This prototype does not submit requests."
+}

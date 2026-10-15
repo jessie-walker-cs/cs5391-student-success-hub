@@ -1,0 +1,53 @@
+name: "CS 5391 subproject selection"
+description: "Select one Student Success Hub subproject by Monday October 19, 2026 at 11:59 p.m. Central. This is public."
+title: "Subproject selection: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## CS 5391 Student Success Hub
+        **Deadline: Monday, October 19, 2026 at 11:59 p.m. Central Daylight Time.**
+        Select one team. Your selected subproject will be your team for the rest of CS 5391 after the instructor confirms team assignments.
+        This Issue is public. Do not include student IDs, personal email addresses, grades, passwords, or confidential information.
+        Students who cannot or prefer not to post a public signup may send their preference privately using Canvas Inbox by the same deadline.
+  - type: dropdown
+    id: subproject
+    attributes:
+      label: "My one subproject selection"
+      description: "Choose the development team that interests you most."
+      options:
+        - "Team 1: Student Resource Navigator"
+        - "Team 2: Academic Planner"
+        - "Team 3: Student Support Navigator"
+    validations:
+      required: true
+  - type: textarea
+    id: interest
+    attributes:
+      label: "Why this subproject?"
+      description: "Describe your interests in two to four sentences. Do not include private information."
+      placeholder: "I would like to contribute to this subproject because..."
+    validations:
+      required: true
+  - type: dropdown
+    id: contribution-interest
+    attributes:
+      label: "Skill area you want to practice (optional)"
+      options:
+        - "Requirements and product planning"
+        - "Interface and accessibility design"
+        - "Software implementation"
+        - "Testing and quality assurance"
+        - "Documentation and integration"
+        - "Flexible / interested in all areas"
+    validations:
+      required: false
+  - type: checkboxes
+    id: commitment
+    attributes:
+      label: "Selection acknowledgment"
+      options:
+        - label: "I understand I will remain with this team throughout the course once assignments are confirmed, unless my instructor approves a change. I will continue to submit graded work through Canvas."
+          required: true
+        - label: "I understand this GitHub Issue is public and have not included private student information."
+          required: true
